@@ -21,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Positioned(
               top:0,
               left: 0,
-              height: 700,
+              //height: 700,
               child: Container(
                 height: 700,
                 width: MediaQuery.of(context).size.width,
@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30.0),
                       ),),
-                      onPressed: ()=>Container(),
+                      onPressed: ()=>Get.to(ContentPage()),
                       child: Text(
                         "Get started",
                         style: TextStyle(
